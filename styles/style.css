@@ -60,7 +60,10 @@ nav{
 .travel-color{
     color: #FF5400;
 }
-
+.bar-icon{
+    font-size: 2rem;
+    display: none;
+}
 .nav-bar ul{
     display: flex;
     gap: 20px;
@@ -87,6 +90,7 @@ nav{
     background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("/Images/Group\ 13\ \(1\)\ \(1\).png") ;
     background-position:  center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     text-align: center;
     padding: 50px 0px ;

@@ -6,6 +6,13 @@
        
         
     }
+    .bar-icon{
+        display: block;
+        margin-left: 20px;
+    }
+    .nav-bar ul{
+        display: none;
+    }
     .popular, .popular-img img,
     .dastination-img-row img
     {

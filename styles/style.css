@@ -179,95 +179,91 @@ main{
     max-width: 700px;
    margin: 0 auto;
 }
-.dastination-img-container img{
-    max-width: 100%;
-    
-}
-.dastination-img-row{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-   
-    
-}
 .dastination-img-container{
-   margin-top: 50px;
-}
-.dastination-img-row h3{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    gap: 10px;
+    margin-top: 50px;
    
-    color: white;
-    font-size: 3rem;
-    font-weight: 800;
+
 
 }
-.dastination-img-row .img-item{
-    
-}
-
 .maldives{
-  position:relative;
-}
-.malh3{
-    position: absolute;
-    top: 70px;
-    left: 150px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    border-radius: 12px;
+    /* grid-area: maldives; */
+
 }
 .indonasia{
-    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 6/12;
+    border-radius: 12px;
+    /* grid-area: indonasia; */
 }
-.indoh3{
-    position: absolute;
-    top: 70px;
-    left: 150px;
-}
-
 .srilanka{
-   position: relative;
-}
-.srih3{
-    position: absolute;
-    top: 57px;
-    left: 80px ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 1/4;
+    border-radius: 12px;
+    /* grid-area: srilanka; */
 }
 .north-america{
-  position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 4/9;
+    border-radius: 12px;
+    /* grid-area: north-america; */
 }
-.northh3{
-    position: absolute;
-    top: 60px;
-    left: 58px;
+.kashmir{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 9/12;
+    border-radius: 12px;
+    /* grid-area: kashmir; */
 }
- .kashmir{
-    position: relative;
- }
- .kash3{
-    position: absolute;
-    left: 30px;
-    top: 65px;
-}
-
 .bangladesh{
-  position: relative;
-}
-.bdh3{
-    position: absolute;
-    top: 60px;
-    left: 85px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 1/5;
+    border-radius: 12px;
+    /* grid-area: bangladesh; */
 }
 .bandarban{
-  position: relative;
-} 
-.bnh3{
-    position: absolute;
-    top: 63px;
-    left: 180px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    grid-column: 5/12;
+    border-radius: 12px;
+    /* grid-area: bandarban; */
 }
-/* .maldives h3{
-    position: relative;
-    top: 100px;
-    left: 100px;
+.dastination-img-container h3{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 2rem;
 
 }
+
 
 /* why us section styles */
 .why-us{}

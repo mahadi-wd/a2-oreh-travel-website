@@ -2,11 +2,16 @@
     .banner-form, .popular, 
     .dastination-img-row, 
     .service-items, 
-    .newsletter {
+    .newsletter,  {
         flex-direction: column;
        
         
     }
+    .dastination-imt-container{
+        grid-template-columns: 1fr;
+        
+    }
+    
     .bar-icon{
         display: block;
         margin-left: 20px;

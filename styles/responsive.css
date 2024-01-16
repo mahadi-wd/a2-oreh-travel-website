@@ -1,7 +1,8 @@
 @media screen and (max-width:600px) {
     .banner-form, .popular, 
     .dastination-img-row, 
-    .service-items {
+    .service-items, 
+    .newsletter {
         flex-direction: column;
        
         
@@ -19,9 +20,17 @@
         max-width: 100%;
        margin: auto;
     }
-    .banner{
-      
+     .newsletter-img,
+    .newsletter-content
+    {
+      width: 100%;
        
+    }
+    .offer-badge{
+        margin-right: 30px;
+        margin-bottom: 15px;
+        width: 40%;
+
     }
    .btn-white, .btn-prim{
     margin-top: 10px;

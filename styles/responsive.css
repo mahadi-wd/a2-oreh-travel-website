@@ -35,13 +35,13 @@
    .btn-white, .btn-prim{
     margin-top: 10px;
    }
-    header, main{
-        max-width: 100%;
+    header, main, footer{
+        width: 100%;
         padding: 20px;
     }
-    .service-item3{
+    .service-item3, .social-icon-container, .footer-description {
         width: 100%;
-        /* margin-top: 20px; */
+       
 
     }
 }

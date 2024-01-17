@@ -55,7 +55,8 @@
    }
     header, main, footer{
         width: 100%;
-        padding: 20px;
+        padding: 1px;
+        
     }
     .service-item3, .social-icon-container, .footer-description {
         width: 100%;

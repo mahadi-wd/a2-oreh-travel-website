@@ -2,15 +2,28 @@
     .banner-form, .popular, 
     .dastination-img-row, 
     .service-items, 
-    .newsletter,  {
+    .newsletter  {
         flex-direction: column;
        
         
     }
-    .dastination-imt-container{
-        grid-template-columns: 1fr;
+    .dastination-img-container{
         
-    }
+        grid-template-columns:  1fr;
+        max-width: 100%;
+        margin: auto;
+         
+        }
+        .maldives, .indonasia,
+        .srilanka, .north-america,
+        .kashmir, .bangladesh,
+        .bandarban{
+            grid-column: 1/12;
+            width: 100%;
+        }
+.why-us{
+    margin-top: 250px;
+}
     
     .bar-icon{
         display: block;

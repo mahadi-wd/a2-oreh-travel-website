@@ -27,7 +27,7 @@
     
     .bar-icon{
         display: block;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
     .nav-bar ul{
         display: none;

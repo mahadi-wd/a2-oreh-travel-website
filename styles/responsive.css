@@ -22,7 +22,7 @@
             width: 100%;
         }
 .why-us{
-    margin-top: 250px;
+    margin-top: 50px;
 }
     
     .bar-icon{
@@ -53,9 +53,10 @@
    .btn-white, .btn-prim{
     margin-top: 10px;
    }
-    header, main, footer{
-        width: 100%;
-        padding: 1px;
+    header, main, footer, body{
+        width:100%;
+        /* padding: 20px; */
+       
         
     }
     .service-item3, .social-icon-container, .footer-description {
